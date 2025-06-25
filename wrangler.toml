@@ -13,4 +13,4 @@ class_name = "PeerServerDO"
 # Docs: https://developers.cloudflare.com/workers/learning/using-durable-objects#configure-durable-object-classes-with-migrations
 [[migrations]]
 tag = "v1" # Should be unique for each entry
-new_classes = ["PeerServerDO"]
+new_sqlite_classes = ["PeerServerDO"]
